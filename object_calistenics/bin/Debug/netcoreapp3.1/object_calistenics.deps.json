@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "object_calistenics/1.0.0": {
+        "runtime": {
+          "object_calistenics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "object_calistenics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.csprojAssemblyReference.cache
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.csproj.CoreCompileInputs.cache
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.AssemblyInfoInputs.cache
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.AssemblyInfo.cs
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\bin\Debug\netcoreapp3.1\object_calistenics.exe
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\bin\Debug\netcoreapp3.1\object_calistenics.deps.json
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\bin\Debug\netcoreapp3.1\object_calistenics.runtimeconfig.json
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\bin\Debug\netcoreapp3.1\object_calistenics.runtimeconfig.dev.json
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\bin\Debug\netcoreapp3.1\object_calistenics.dll
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\bin\Debug\netcoreapp3.1\object_calistenics.pdb
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.dll
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.pdb
+C:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.genruntimeconfig.cache

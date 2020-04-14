@@ -1,0 +1,4 @@
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.csprojAssemblyReference.cache
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.csproj.CoreCompileInputs.cache
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.AssemblyInfoInputs.cache
+c:\Users\AMCuba\Desktop\TareasIproyectos\object_calistenics\obj\Debug\netcoreapp3.1\object_calistenics.AssemblyInfo.cs
