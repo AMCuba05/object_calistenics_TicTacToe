@@ -15,8 +15,7 @@ namespace object_calistenics
             Console.WriteLine("marca de jugador 2");
             char tokenP2 = (char)Console.ReadLine().ToCharArray()[0];
             GameControl gameControl = new GameControl(new Player(nameP1 , tokenP1) , new Player(nameP2 , tokenP2));
-            gameControl.start(gameControl);
-            
+            gameControl.start();
         }
     }
 }
