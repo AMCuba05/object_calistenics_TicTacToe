@@ -12,16 +12,15 @@ namespace object_calistenics.classes
             this.players[initial] = player1;
             this.players[another_index] = player2;
         }
-        public int switchInd (int index){
-            if (index + 1 == 2){
+        public int switchInd (int index ){
+            if (index + 1 == 2 ){
                 index = -1;
             }    
             return index + 1;
         }
-        public int begin(int turn, GameControl game){
-            players[turn].move(game);
-            turn = switchInd(turn);
-            return turn;
+        public int begin(int turn){
+            int position = this.players[turn].move();
+            return position;
         }
         public bool winner (){
             bool winner = false;
@@ -29,6 +28,16 @@ namespace object_calistenics.classes
                 winner = true;
             }
             return winner;
+        }
+        public char showCurrentToken(int turn){
+            return this.players[turn].showToken();
+        }
+        public int change (bool success , int turn , int position){
+            if (success){
+                this.players[turn].placeToken(success , position);
+                turn = this.switchInd(turn);
+            }
+            return turn;
         }
     }
 }

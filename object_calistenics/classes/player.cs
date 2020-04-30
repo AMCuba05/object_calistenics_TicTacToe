@@ -3,30 +3,31 @@ namespace object_calistenics.classes
 {
     public class Player : PlayerMovements
     {
-        private String nickName;
-        private char token;
+        private PlayerInformation playerInformation;
 
         public Player(String nickName , char token){
-            this.nickName = nickName;
-            this.token = token;
+            this.playerInformation = new PlayerInformation(nickName , token);
         }
-
-        public void move(GameControl gameControl){
-            bool repeat = true;
-            do{
-                System.Console.WriteLine(this.nickName + ", Ingrese la posicion donde poner la ficha");
-                int position = Int32.Parse(Console.ReadLine());
-                repeat = !gameControl.move(position , this.token);
-                if (!repeat) this.movements[position-1] = 1;
-            } while (repeat);
+        public int move(){
+            this.playerInformation.requestPosition();
+            int position = Int32.Parse(Console.ReadLine());
+            return position;
+        }
+        public void placeToken (bool confirm , int position){
+            if (confirm){
+                this.movements[position-1] = 1;
+            }
         }
         public bool checkVictory (){
             bool victory = checkVertical() || checkHorizontal() || checkDiagonal() || checkInverted();
             if (victory)
             {
-                Console.WriteLine("jugador " + this.nickName + " gano");
+                this.playerInformation.winMessage();
             }
             return victory;
+        }
+        public char showToken(){
+            return this.playerInformation.showToken();
         }
     }
 }

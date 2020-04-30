@@ -1,4 +1,3 @@
-using System;
 namespace object_calistenics.classes{
     public class PlayerMovements{
         protected int[] movements;
